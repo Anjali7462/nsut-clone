@@ -1,0 +1,129 @@
+/* Basic styles */
+body {
+    background-color: #f0f0f0;
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    background-image: url('nsutgreenview.jpg');
+    background-size: cover;
+    /* flex-direction: row;
+    flex-wrap: nowrap;
+    display: flex; */
+}
+
+.gap{
+    padding:2px 6px;
+}
+
+#row1{
+    display: flex;
+    flex-direction: row;
+}
+
+#column1{
+    display: flex;
+    flex-direction: column;
+}
+
+.navhome {
+    background-color: #30d7d5;
+    color: rgb(9, 6, 6);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+color: wheat;
+width: max-content;
+
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li::after {
+    /* content: ''; */
+    width: 0%;
+    height: 2px;
+    background: #0a0a0a;
+    display: block;
+    margin: auto; 
+    transition: 0.3s ease-out;
+}
+
+nav ul li:hover::after{
+    width: 100%;
+} 
+
+main {
+    padding: 20px;
+}
+
+.whitebold{
+    color: #0a0a0a;
+    
+}
+
+.bluetext{
+    color: turquoise;
+}
+
+.blackNwhite{
+     color: rgb(142, 19, 24);
+     background-color: rgb(215, 172, 85);
+     font-size: 15px;
+     padding: 3px 3px 3px 4px;
+     padding-right: 14px;
+}
+
+.whiteNblue{
+    color: white;
+    /* background-color: blue; */
+    background: blue;
+}
+
+.bold{
+    color: rgb(5, 8, 8);
+    font-size: 20px;
+    font-style:inherit;
+}
+
+.left{
+    align-items: self-start;
+}
+
+.right{
+    align-items: self-end;
+}
+
+.fontneutral{
+    font-style:initial;
+    font-size: 15px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+/* Additional styles for links, forms, gallery, etc. */
+
