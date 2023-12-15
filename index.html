@@ -5,29 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>NETAJI SUBHAS UNIVERSITY OF TECHNOLOGY</title>
+    <title> NETAJI SUBHAS UNIVERSITY OF TECHNOLOGY</title>
 </head>
 
-<body>
+<body class="index_body">
     <header>
-        <h1>NETAJI SUBHAS UNIVERSITY OF TECHNOLOGY</h1>
-        <p class="left"><img src="redlogo.png" width="80px" alt="College Logo"></p>
-        <video src="kulgeet.mp3" controls></video>
+        <div class="index_top">
+            <div>
+                <p><img src="redlogo.png" width="80px" alt="College Logo"></p>
+            </div>
+        
+            <div>
+                <h1>NETAJI SUBHAS UNIVERSITY OF TECHNOLOGY</h1>
+                <p><i>formerly Netaji Subhas Institute of Technology (Govt. of NCT of Delhi)</i></p>
+            </div>
+            <div class="white">
+                <p><a href="location.html"> Netaji Subhas University Of Technology(NSUT) <img src="location_icon.jpeg" width="50px" alt="location"></a></p>
+                <p>  Sec-3, Dwarka New Delhi-110078, India</p>
+                <video src="kulgeet.mp3" controls></video>
+            </div>
+        
+        </div>
     </header>
-    <nav class="gap navhome">
+    <nav class="gap navhome inline">
         <ul>
-            <li class="red-line"><a href="home.html">Home</a></li>
-            <li class="red-line"><a href="academics.html">Academics</a></li>
-            <li class="red-line"><a href="administration.html">Administration</a></li>
-            <li class="red-line"><a href="admission.html">Admission</a></li>
+            <style>
+                nav ul li a {color: black; text-decoration: none;}
+                nav ul li {display: inline;margin-right: 20px;width: max-content;}
+            </style>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="administration.html">Administration</a></li>
+            <li><a href="admission.html">Admission</a></li>
+            <li><a href="https://www.onlinesbi.sbi/">fee payment</a></li>
+            <li><a href="ums.html">ums</a></li>
+            <li> <a href="contact.html">contact us</a></li>
         </ul>
-
+<script>
+   // document.getElementsByClassName("hover").innerHTML.onmouseover;
+</script>
     </nav>
     <main>
-
+        <style>main { padding: 20px;}</style>
         <section>
             <h2>Welcome to NSUT</h2>
-            <p class="whitebold">Equipping you for success in your career and in life</p>
+            <p>Equipping you for success in your career and in life</p>
             <h3 class="bluetext"><u>About NSUT</u></h3>
             With reference of Delhi Gazette published on Thursday, September 27, 2018 vide No. F.
             14(7)/LA-2015/PF-III/SB(2018)/2017.—In exercise of powers conferred under
@@ -41,6 +62,7 @@
     <footer>
         <p><u>&copy; 2023 College Name. All rights reserved.</u></p>
     </footer>
+    <script src="script_college.js"></script>
 </body>
 
 </html>
